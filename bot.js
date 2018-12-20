@@ -165,11 +165,6 @@ client.channels.find('id', '524933542174654480').setName("Welcome To ,, United G
 });
 
 
-client.on('ready', () => {
-    client.channels.get("445406863048048642","417377495160193044").join(); 
-    });
-
-
 var prefix = "U";
 
 client.on("message", message => {
