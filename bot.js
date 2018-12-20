@@ -197,7 +197,7 @@ client.on("message", message => {
         color: 0x06DF00,
         description: "تم مسح الرسائل بنجاح",
         footer: {
-          text: "Ninja Manager.bot" // غير هنا حط اسم البوت
+          text: "Ninja Gamming" // غير هنا حط اسم البوت
         }
       }}).then(msg => {msg.delete(3000)});
                           }
