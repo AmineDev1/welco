@@ -122,7 +122,7 @@ const x5bz4 = [
 
 
 
-var prefix = "-";
+var prefix = "+";
 
 client.on('message', message => {
 if (message.content === "-h") {
@@ -429,7 +429,7 @@ client.on("guildMemberAdd", member => {
                               ctx.font = '30px Arial';
                               ctx.fontSize = '28px';
                               ctx.fillStyle = "#FFFFFF";
-      ctx.fillText(`Welcome To Server`, 245, 80);
+      ctx.fillText(`Welcome To Ninja`, 245, 80);
     
                               //AVATARً
                               let Avatar = Canvas.Image;
